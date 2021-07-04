@@ -60,7 +60,7 @@
 }
 .job-settlement{
   font-size: 13px;
-  color: #D3D3D3;
+  color: #355C7D;
   margin-left: 25rpx;
 }
 .bottom-tips{
@@ -68,5 +68,5 @@
   margin-bottom: 60rpx;
   display: flex;
   justify-content: center;
-  color: gainsboro;
+  color: #355C7D;
 }

@@ -22,8 +22,8 @@
   ],
   "tabBar": {
     "position": "bottom",
-    "color": "#7A7E83",
-    "selectedColor": "#f37b1d",
+    "color": "#355C7D",
+    "selectedColor": "#355C7D",
     "borderStyle": "white",
     "backgroundColor": "#FFFFFF",
     "list": [
@@ -43,12 +43,12 @@
   },
   "window": {
     "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#f37b1d",
+    "navigationBarBackgroundColor": "#355C7D",
     "navigationBarTitleText": "大学生兼职系统",
     "navigationBarTextStyle": "white",
     "enablePullDownRefresh": false,
     "onReachBottomDistance": 0,
-    "backgroundColor": "#F5F5F5"
+    "backgroundColor": "#355C7D"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

@@ -31,7 +31,7 @@
 }
 .item-one-right{
   align-self: center;
-  color: #f37b1d;
+  color: #355C7D;
   font-size: 15px;
 }
 .line{

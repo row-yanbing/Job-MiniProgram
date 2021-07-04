@@ -25,13 +25,13 @@
           </view>
        </view>
        <view class="detail-head-tags">
-          <view class="cu-tag line-orange" wx-if="{{job.settlement==1}}">日结</view>
-          <view class="cu-tag line-orange" wx-if="{{job.settlement==2}}">周结</view>
-          <view class="cu-tag line-orange" wx-if="{{job.settlement==3}}">完工结</view>
-          <view class="cu-tag line-orange">招{{job.recruitNum}}人</view>
-          <view class="cu-tag line-orange" wx-if="{{job.sex==1}}">男</view>
-          <view class="cu-tag line-orange" wx-if="{{job.sex==2}}">女</view>
-          <view class="cu-tag line-orange" wx-if="{{job.sex==3}}">男女不限</view>
+          <view class="cu-tag line-blue" wx-if="{{job.settlement==1}}">日结</view>
+          <view class="cu-tag line-blue" wx-if="{{job.settlement==2}}">周结</view>
+          <view class="cu-tag line-blue" wx-if="{{job.settlement==3}}">完工结</view>
+          <view class="cu-tag line-blue">招{{job.recruitNum}}人</view>
+          <view class="cu-tag line-blue" wx-if="{{job.sex==1}}">男</view>
+          <view class="cu-tag line-blue" wx-if="{{job.sex==2}}">女</view>
+          <view class="cu-tag line-blue" wx-if="{{job.sex==3}}">男女不限</view>
        </view>
     </view>
     <!-- 分割线 -->

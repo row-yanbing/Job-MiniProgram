@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3rpx solid #FFEBE0;
+  border: 3rpx solid #355C7D;
   color: #999999;
   margin: 20rpx 25rpx 0 0;
 }
@@ -78,7 +78,7 @@
   align-items: center;
   background: #FFEBE0;
   font-size: 11px;
-  color: #f37b1d;
+  color: #355C7D;
   padding: 6rpx 9rpx;
   margin-right: 14rpx;
 }
@@ -88,7 +88,7 @@
 }
 .resList-right-price{
   font-size: 16px;
-  color: #f37b1d;
+  color: #355C7D;
 }
 .resList-right-date{
   color: #D3D3D3;

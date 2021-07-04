@@ -11,34 +11,34 @@ Page({
     swiperList: [{
       id: 0,
       type: 'image',
-      url: 'https://cdn.pixabay.com/photo/2018/09/24/15/04/board-3700116__340.jpg'
+      url: '/image/恒盈.jpg'
     }, {
       id: 1,
       type: 'image',
-        url: 'https://cdn.pixabay.com/photo/2015/09/02/12/26/desk-918425__340.jpg',
+        url: '/image/test1.jpg',
     }, {
       id: 2,
       type: 'image',
-        url: 'https://cdn.pixabay.com/photo/2015/07/31/14/59/creative-869200__340.jpg'
+        url: '/image/test2.jpg'
     }, {
       id: 3,
       type: 'image',
-        url: 'https://cdn.pixabay.com/photo/2019/03/12/20/27/kanban-4051777__340.jpg'
+        url: '/image/test3.jpg'
     }],
     jobList:[
       {
-        tittle:"测试数据的标题",
-        reward:"180/天",
-        place:"西乡塘",
-        settlement:1,
+        tittle:"常平中航光电",
+        reward:"18/小时",
+        place:"常平",
+        settlement:0,
         isBagEating:1,
         encase:1,
         isTrafficSubsidy:1,
         royalty:1
       },
       {
-        tittle: "测试数据的标题",
-        reward: "90/天",
+        tittle: "黄草朗表带厂",
+        reward: "15/小时",
         place: "西乡塘",
         settlement: 1,
         isBagEating: 0,
@@ -47,9 +47,9 @@ Page({
         royalty: 0
       },
       {
-        tittle: "测试数据的标题",
-        reward: "50/天",
-        place: "西乡塘",
+        tittle: "松木山手表厂",
+        reward: "15/小时",
+        place: "松木山",
         settlement: 1,
         isBagEating: 1,
         encase: 0,
@@ -57,9 +57,9 @@ Page({
         royalty: 1
       },
       {
-        tittle: "测试数据的标题",
-        reward: "80/天",
-        place: "西乡塘",
+        tittle: "松柏朗音圈厂",
+        reward: "15/小时",
+        place: "松柏朗",
         settlement: 3,
         isBagEating: 1,
         encase: 1,
@@ -67,9 +67,19 @@ Page({
         royalty: 1
       },
       {
-        tittle: "测试数据的标题",
-        reward: "80/天",
-        place: "西乡塘",
+        tittle: "石排铭普光磁",
+        reward: "17/小时",
+        place: "石排",
+        settlement: 2,
+        isBagEating: 1,
+        encase: 1,
+        isTrafficSubsidy: 0,
+        royalty: 1
+      },
+      {
+        tittle: "常平捷邦电子",
+        reward: "16/小时",
+        place: "石排",
         settlement: 2,
         isBagEating: 1,
         encase: 1,
@@ -141,6 +151,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+  /* 云托管
+  async onLoad(options) {
+    console.log('b')
+    const res = await wx.cloud.callContainer({
+      path: '/container-hr-backend', // 填入容器的访问路径（云托管-服务列表-路径）
+      method: 'GET',
+    })
+    console.log(res)
+  */
     
     // var _this = this
     // wx.request({

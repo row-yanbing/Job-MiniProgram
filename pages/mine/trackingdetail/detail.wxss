@@ -27,7 +27,7 @@
 }
 .item-one-right{
   align-self: center;
-  color: #f37b1d;
+  color: #355C7D;
   font-size: 15px;
 }
 .tracking{
@@ -49,7 +49,7 @@
   width: 6rpx;
   height: 100%;
   padding: 14rpx 0;
-  background: #f37b1d;
+  background: #355C7D;
   margin-right: 15rpx;
 }
 .line{
@@ -70,7 +70,7 @@
   align-items: center;
 }
 .tracking-item-tittle-icon{
-  background: #f37b1d;
+  background: #355C7D;
   border-radius: 50%;
   height: 16rpx;
   width: 16rpx;
@@ -78,7 +78,7 @@
 }
 .tracking-item-tittle-word{
   margin-left: 15rpx;
-  color: #f37b1d;
+  color: #355C7D;
 }
 .tracking-item-content{
   margin-top: 8rpx;

@@ -12,7 +12,7 @@ Page({
     isLogin:0,
     percentage:"0",
     isVerify:"马上登录",
-    tips:"让我们见证您的兼职历程",
+    tips:"让我们见证您的求职历程",
     name:"",
     isShow:false,
     trackingList:[

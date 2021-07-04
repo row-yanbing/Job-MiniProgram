@@ -17,7 +17,7 @@
 }
 .detail-head-price{
   margin-top: 20rpx;
-  color: #f37b1d;
+  color: #355C7D;
   font-size: 15px;
 }
 .detail-head-otherinfo{
@@ -72,7 +72,7 @@
 }
 .commodity-content-tittle-icon{
   width: 6rpx;
-  background: #f37b1d;
+  background: #355C7D;
   margin: 5rpx 0;
 }
 .commodity-content-tittle-word{
@@ -133,7 +133,7 @@
    height: 20rpx;
    border-radius: 50%;
    overflow:hidden;
-   border: 3rpx solid #f37b1d;
+   border: 3rpx solid #355C7D;
 }
 .commodity-content-time-icon-line{
   background: #FFEBE0;
@@ -233,11 +233,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #f37b1d;
+  color: #355C7D;
   flex-grow: 1;
 }
 .bottom-button-right{
-  background: #f37b1d;
+  background: #355C7D;
   display: flex;
   flex-direction: column;
   justify-content: center;

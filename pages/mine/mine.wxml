@@ -3,11 +3,11 @@
    <!--确认框 -->
    <l-dialog
       show="{{isShow}}"
-      type="confirm"     
+      type="confirm"
       title="大学生兼职系统"
-      title-color="#f37b1d"
+      title-color="#355C7D"
       show-title="{{isTittle}}"
-      confirm-color="#f37b1d"
+      confirm-color="#355C7D"
       content-color="#333"
       bind:lincancel="onCancelTap"
       bind:linconfirm="onConfirmTap"
@@ -18,7 +18,7 @@
          <!-- 头像 -->
          <view bindtap="onHead">
          <l-avatar  wx:if="{{isLogin==0}}" l-class="avatar-bg" size="130" src="/image/touxiang.jpg" />
-         <l-avatar  wx:if="{{isLogin==1}}" l-class="avatar-bg" size="130" 
+         <l-avatar  wx:if="{{isLogin==1}}" l-class="avatar-bg" size="130"
                 open-data="{{['userAvatarUrl']}}" icon-style="color:#5bf320" />
          </view>
          <!-- 名字and是否认证 -->
@@ -50,8 +50,8 @@
                完善简历将有利提高您的录取率~
             </view>
             <view class="myresume-left-button">
-               <button class="cu-btn round line-orange button-hover size" bindtap="fillResume">马上完善
-               </button>   
+               <button class="cu-btn round line-blue button-hover size" bindtap="fillResume">马上完善
+               </button>
             </view>
         </view>
         <view class="myresume-right">
@@ -108,6 +108,4 @@
      <view class="bottom-tips">
      找兼职就来大学生兼职系统
      </view>
-
-       
 </view>

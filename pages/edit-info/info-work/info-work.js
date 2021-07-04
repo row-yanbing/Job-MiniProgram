@@ -21,7 +21,7 @@ Page({
     startYear: 1980,
     endYear: 2030,
     cancelColor: "#888",
-    color: "#f37b1d",
+    color: "#355C7D",
     setDateTime: "2020/04/23",
     result: "",
     select: "1",
@@ -31,7 +31,7 @@ Page({
     console.log(e)
     this.setData({
       cancelColor: "#888",
-      color: "#f37b1d",
+      color: "#355C7D",
       setDateTime: "2020/04/23",
       startYear: 1980,
       endYear: 2020,
@@ -60,7 +60,7 @@ Page({
     wx.showModal({
       title: '提示',
       content: '确定提交信息吗？',
-      confirmColor: "#f37b1d",
+      confirmColor: "#355C7D",
       success(res) {
         if (res.confirm) {
           // 提交添加信息
@@ -105,7 +105,7 @@ Page({
     wx.showModal({
       title: '提示',
       content: '确定修改信息吗？',
-      confirmColor: "#f37b1d",
+      confirmColor: "#355C7D",
       success(res) {
         if (res.confirm) {
           // 修改添加信息

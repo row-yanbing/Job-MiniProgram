@@ -48,7 +48,7 @@
   width: 5rpx;
   height: 100%;
   margin: 6rpx 0;
-  background: #f37b1d;
+  background: #355C7D;
 }
 .info-tittle-word{
   font-size: 16px;
@@ -98,7 +98,7 @@
 }
 .job-item-money{
   font-size: 14px;
-  color: #f37b1d;
+  color: #355C7D;
   margin-top: 22rpx;
 }
 .job-item-right-img{

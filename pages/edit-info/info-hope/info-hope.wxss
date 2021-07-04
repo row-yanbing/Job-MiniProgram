@@ -87,7 +87,7 @@
   width: 180rpx !important;
   height: 72rpx !important;
   color: #ffffff;
-  background: rgba(243,123,29,0.8);
+  background: rgba(53,92,125,0.8);
   border-radius: 10rpx;
 }
 .button-reset{
@@ -97,7 +97,7 @@
   justify-content: center;
   width: 180rpx !important;
   height: 72rpx !important;
-  color: rgba(243,123,29,0.8);
+  color: rgba(53,92,125,0.8);
   background: rgba(244, 244, 244, 0.966);
   border-radius: 10rpx;
 }

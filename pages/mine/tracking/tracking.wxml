@@ -1,5 +1,5 @@
 <!--pages/mine/tracking/tracking.wxml-->
-<l-tabs bind:linchange="changeTabs" l-class-header-line="header-line" active-color="#f37b1d" active-key="{{key}}">
+<l-tabs bind:linchange="changeTabs" l-class-header-line="header-line" active-color="#355C7D" active-key="{{key}}">
   <l-tabpanel tab="全部" key="4" slot="4">
     <view class="tab-content">
       <view class="content-item" wx:for="{{resList}}" wx:key="id">

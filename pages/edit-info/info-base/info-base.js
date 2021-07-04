@@ -11,7 +11,7 @@ Page({
     startYear: 1980,
     endYear: 2030,
     cancelColor: "#888",
-    color: "#f37b1d",
+    color: "#355C7D",
     setDateTime: "",
     result: "",
     // 页面信息参数
@@ -58,7 +58,7 @@ Page({
     wx.showModal({
       title: '提示',
       content: '确定提交修改的信息吗？',
-      confirmColor:"#f37b1d",
+      confirmColor:"#355C7D",
       success(res) {
         if (res.confirm) {
           // 提交修改信息
@@ -106,7 +106,7 @@ Page({
     let type = Number(e.currentTarget.dataset.type);
     this.setData({
       cancelColor: "#888",
-      color: "#f37b1d",
+      color: "#355C7D",
       setDateTime: "",
       startYear: 1980,
       endYear: 2005

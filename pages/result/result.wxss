@@ -13,9 +13,9 @@
 		font-weight: bold;
 	}
 	.index{
-		border: 3rpx solid #f37b1d;
+		border: 3rpx solid #355C7D;
 		border-radius: 20rpx;
-		color: #f37b1d;
+		color: #355C7D;
 		font-size: 18px;
 		margin-top: 200rpx;
 		padding: 10rpx 80rpx;

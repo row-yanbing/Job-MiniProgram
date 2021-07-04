@@ -5,7 +5,7 @@
 }
 
 .headcolor{
-  background: #f37b1d;
+  background: #355C7D;
   height: 270rpx;
   padding-top: 50rpx;
 }
@@ -53,7 +53,7 @@
 }
 .myresume-left-tittle-icon{
   width: 6rpx;
-  background: #f37b1d;
+  background: #355C7D;
 }
 .myresume-left-tittle-word{
   margin-left: 10rpx;
@@ -76,7 +76,7 @@
   justify-content: center;
   margin-right: 20rpx;
   font-size: 30px;
-  color: #f37b1d;
+  color: #355C7D;
 }
 /* 报名跟踪 */
 .tracking{
@@ -94,7 +94,7 @@
 }
 .tracking-tittle-icon{
   width: 6rpx;
-  background: #f37b1d;
+  background: #355C7D;
 }
 .tracking-tittle-word{
   margin-left: 10rpx;

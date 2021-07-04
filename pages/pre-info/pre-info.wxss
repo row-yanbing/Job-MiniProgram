@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   height: 280rpx;
-  background: #f37b1d
+  background: #355C7D
   
 }
 .top-img{
@@ -44,7 +44,7 @@
   margin-top: 22rpx;
   padding: 25rpx 0;
   background: #FFFFFF;
-  color: #f37b1d;
+  color: #355C7D;
   border: 3rpx solid #CCC;
 }
 
@@ -74,7 +74,7 @@
 }
 .otherInfo-item-first-left-icon{
   width: 6rpx;
-  background: #f37b1d;
+  background: #355C7D;
   margin: 7rpx 0 5rpx 0;
 }
 .otherInfo-item-first-left-word{
@@ -108,7 +108,7 @@
 .otherInfo-item-third-splicedicon-spot{
   width: 13rpx;
   height: 13rpx;
-  background: #f37b1d;
+  background: #355C7D;
   border-radius: 50%;
 }
 .otherInfo-item-third-splicedicon-line{

@@ -3,7 +3,7 @@
    <!-- 顶部tips -->
    <view class="tittleTips">
       <view>简历完善度为{{percentage}}%(完善可提高录用率)</view>
-      <view style="color:#f37b1d;" bindtap="preview">预览</view>
+      <view style="color:#355C7D;" bindtap="preview">预览</view>
    </view>
    <!-- 主要内容 -->
    <view class="baseContent">

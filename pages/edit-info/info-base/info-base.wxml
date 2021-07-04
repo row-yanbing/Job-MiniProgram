@@ -30,8 +30,8 @@
     </view>
     <view class="item-right">
       <l-radio-group placement="row" bind:linchange="sexChange" current="1" none-checked="{{false}}">
-          <l-radio select-color="#f37b1d" size="32" key="1" l-class="item-radio">男</l-radio>
-          <l-radio select-color="#f37b1d" size="32" key="2">女</l-radio>
+          <l-radio select-color="#355C7D" size="32" key="1" l-class="item-radio">男</l-radio>
+          <l-radio select-color="#355C7D" size="32" key="2">女</l-radio>
       </l-radio-group>
     </view>
   </view>
@@ -75,8 +75,8 @@
     </view>
     <view class="item-right">
       <l-radio-group placement="row" bind:linchange="eduStatusChange" current="1" none-checked="{{false}}">
-          <l-radio select-color="#f37b1d" size="32" key="1" l-class="item-radio">在读</l-radio>
-          <l-radio select-color="#f37b1d" size="32" key="2">已毕业</l-radio>
+          <l-radio select-color="#355C7D" size="32" key="1" l-class="item-radio">在读</l-radio>
+          <l-radio select-color="#355C7D" size="32" key="2">已毕业</l-radio>
       </l-radio-group>
     </view>
   </view>

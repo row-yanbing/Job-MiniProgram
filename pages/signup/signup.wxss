@@ -14,7 +14,7 @@
   align-items: center;
 }
 .top-resume-button{
-  background: #f37b1d;
+  background: #355C7D;
   padding: 10rpx;
   color: #ffffff;
   font-size: 12px;
@@ -39,7 +39,7 @@
 }
 .button{
   margin-top: 50rpx;
-  background: #f37b1d;
+  background: #355C7D;
   color: #ffffff;
   width: 100%;
 }
