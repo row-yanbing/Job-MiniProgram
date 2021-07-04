@@ -55,6 +55,7 @@ Page({
       })
     }
     var _this = this
+    console.log(_this.data),
     wx.showModal({
       title: '提示',
       content: '确定提交修改的信息吗？',
@@ -185,6 +186,7 @@ Page({
   //picker change切换事件
   columnPicker: function (e) {
     let value = e.detail.value;
+    console.log(value)
     //如果两者下标不一致，表示滚动过
     if (this.data.value[0] !== value[0]) {
       this.setData({
@@ -205,6 +207,7 @@ Page({
         value: value
       })
     }
+    console.log(value)
   },
   //确定按钮
   picker: function (e) {
@@ -216,8 +219,9 @@ Page({
       this.setData({
         text: [provice, city, district],
         showPickerStatus: false,
-        nativePlace: provice + ' ' + city + ' ' + district
+        'mainInfo.place': provice + ' ' + city + ' ' + district
       })
+      console.log(provice, city, district)
     }
   },
   // 显示picker-view
